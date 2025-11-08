@@ -160,7 +160,7 @@ class NumericalGBMComparison:
             sigma: Diffusion coefficient
             seed: Random seed for reproducibility
         """
-        from .gbm_simulator import GBMSimulator
+        from .gbm_simulation import GBMSimulator
         
         self.y0 = y0
         self.mu = mu
@@ -246,7 +246,7 @@ class NumericalGBMComparison:
         Returns:
             Dictionary with errors for each method and step count
         """
-        from .gbm_simulator import GBMSimulator
+        from .gbm_simulation import GBMSimulator
         
         euler_errors = []
         milstein_errors = []
