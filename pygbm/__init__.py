@@ -1,8 +1,6 @@
-from .gbm_simulation import GBMSimulator
 from .base_gbm import BaseGBM
-
-__version__ = "0.1.0"
-__all__ = ["GBMSimulator", "BaseGBM"]
+from .gbm_simulator import GBMSimulator
+from .numerical_gbm import EulerMaruyamaGBM, MilsteinGBM, NumericalGBMComparison
 
 # Import version information for the package
 from .version import __version__  # Ensure version.py contains this variable
