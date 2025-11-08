@@ -1,5 +1,5 @@
 from .base_gbm import BaseGBM
-from .gbm_simulator import GBMSimulator
+from .gbm_simulation import GBMSimulator
 from .numerical_gbm import EulerMaruyamaGBM, MilsteinGBM, NumericalGBMComparison
 
 # Import version information for the package
